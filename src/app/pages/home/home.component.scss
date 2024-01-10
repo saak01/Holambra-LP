@@ -1,17 +1,16 @@
-@import url("../../../styles.scss");
-
 .page {
   width: 100%;
   height: 100%;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.header {
+  height: 732px;
+  background-color: var(--secondary-color);
+}
 
-  height: 127px;
+
+footer {
   width: 100%;
+  height: 127px;
   background-color: var(--primary-color);
 }
