@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "Gibson-Light";
+  src: url("../assets/fonts/gibson/Gibson-Light.ttf") format('truetype');
+}
+
+@font-face {
   font-family: "Gibson-Regular";
   src: url("../assets/fonts/gibson/Gibson-Regular.ttf") format('truetype');
 }
@@ -6,4 +11,9 @@
 @font-face {
   font-family: "Gibson-Bold";
   src: url("../assets/fonts/gibson/gibson-bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Gibson-Italic";
+  src: url("../assets/fonts/gibson/Gibson-RegularItalic.ttf") format('truetype');
 }
