@@ -1,6 +1,6 @@
 @use './config-scss/variables.scss';
 @use './config-scss/fonts.scss';
-
+@use './config-scss/default.scss';
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @use '@angular/material' as mat;
@@ -35,14 +35,12 @@ $holambra-theme: mat.define-light-theme((
 // that you are using.
 @include mat.all-component-themes($holambra-theme);
 
-
-
 body,html{
   margin: 0px;
   padding: 0px;
 }
 
 
-
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
