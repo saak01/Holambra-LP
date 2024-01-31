@@ -2,6 +2,9 @@
   box-sizing: border-box;
   width: 540px;
   margin: 32px 30px 30px 30px;
+  @media screen and (max-width:600px) {
+     width: 320px;
+  }
 }
 
 .card-header{

@@ -1,5 +1,18 @@
 .container{
   padding: 64px 0px 64px 0px;
+  width: 1100;
+}
+
+.card-container{
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @media screen and (max-width:1400px) {
+    justify-content: center;
+
+  }
 }
 
 .title-content{
@@ -10,3 +23,4 @@
   font-size: 16px;
   padding: 0px 15px 0px 15px;
 }
+
