@@ -10,13 +10,16 @@ import {MatDividerModule} from '@angular/material/divider';
 import { HeaderComponent } from './pages/header/header.component';
 import {MatIconModule} from '@angular/material/icon';
 import { ChallengeComponent } from './pages/challenge/challenge.component';
+import { CardChallengeComponent } from './shared/components/card/card-challenge/card-challenge.component';
+CardChallengeComponent
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FooterComponent,
     HeaderComponent,
-    ChallengeComponent
+    ChallengeComponent,
+    CardChallengeComponent
   ],
   imports: [
     BrowserModule,

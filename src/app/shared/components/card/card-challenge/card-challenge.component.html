@@ -1,0 +1,14 @@
+<div class="card-container">
+  <div class="card-header">
+    <img [src]="pathUrl" />
+    <h1 class="card-title">{{ title }}</h1>
+  </div>
+  <div class="card-body">
+    <div class="card-content">
+      <div class="d-flex" *ngFor="let item of topics">
+        <span><mat-icon class="card-icon">arrow_forward</mat-icon></span>
+        <p style=" text-align: left;">{{item}}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,7 +3,7 @@
   width: 100%;
   background-color: var(--secondary-color);
   @media screen and (max-width:1250px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 
@@ -132,10 +132,14 @@
     margin-top: 5px;
     margin-bottom: 5px;
   }
+  @media screen and (max-width: 950px) {
+    margin-right: 0px;
+  }
 }
 
 .menu-open {
   margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 6px;
   align-self: center;
   display: flex;
