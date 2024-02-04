@@ -12,6 +12,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { ChallengeComponent } from './pages/challenge/challenge.component';
 import { CardChallengeComponent } from './shared/components/card/card-challenge/card-challenge.component';
 import { TimeLineComponent } from './pages/time-line/time-line.component';
+import { CardTimeLineComponent } from './shared/components/card/card-time-line/card-time-line.component';
 CardChallengeComponent
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ CardChallengeComponent
     HeaderComponent,
     ChallengeComponent,
     CardChallengeComponent,
-    TimeLineComponent
+    TimeLineComponent,
+    CardTimeLineComponent
   ],
   imports: [
     BrowserModule,

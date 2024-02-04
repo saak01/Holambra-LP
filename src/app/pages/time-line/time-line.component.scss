@@ -1,0 +1,9 @@
+.container{
+  background-color: var(--primary-color);
+}
+
+#holder-content{
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+  }
+}
