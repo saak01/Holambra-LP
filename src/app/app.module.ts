@@ -13,6 +13,8 @@ import { ChallengeComponent } from './pages/challenge/challenge.component';
 import { CardChallengeComponent } from './shared/components/card/card-challenge/card-challenge.component';
 import { TimeLineComponent } from './pages/time-line/time-line.component';
 import { CardTimeLineComponent } from './shared/components/card/card-time-line/card-time-line.component';
+import { AwardsComponent } from './pages/awards/awards.component';
+import { CardAwardComponent } from './shared/components/card/card-award/card-award.component';
 CardChallengeComponent
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ CardChallengeComponent
     ChallengeComponent,
     CardChallengeComponent,
     TimeLineComponent,
-    CardTimeLineComponent
+    CardTimeLineComponent,
+    AwardsComponent,
+    CardAwardComponent
   ],
   imports: [
     BrowserModule,
