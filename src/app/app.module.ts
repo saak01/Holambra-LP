@@ -19,6 +19,7 @@ import { SubscriptionComponent } from './pages/subscription/subscription.compone
 import { ContactFormComponent } from './pages/subscription/components/contact-form/contact-form.component';
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AdressFormComponent } from './pages/subscription/components/adress-form/adress-form.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AwardsComponent,
     CardAwardComponent,
     SubscriptionComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    AdressFormComponent
   ],
   imports: [
     BrowserModule,
