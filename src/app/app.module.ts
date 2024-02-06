@@ -15,7 +15,11 @@ import { TimeLineComponent } from './pages/time-line/time-line.component';
 import { CardTimeLineComponent } from './shared/components/card/card-time-line/card-time-line.component';
 import { AwardsComponent } from './pages/awards/awards.component';
 import { CardAwardComponent } from './shared/components/card/card-award/card-award.component';
-CardChallengeComponent
+import { SubscriptionComponent } from './pages/subscription/subscription.component';
+import { ContactFormComponent } from './pages/subscription/components/contact-form/contact-form.component';
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,14 +31,19 @@ CardChallengeComponent
     TimeLineComponent,
     CardTimeLineComponent,
     AwardsComponent,
-    CardAwardComponent
+    CardAwardComponent,
+    SubscriptionComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,28 @@
+<div class="d-flex justify-content-center">
+  <form class="form-container" [formGroup]="contactForm">
+    <div class="form-input-holder">
+      <input class="input" placeholder="Nome" type="text" formControlName="name">
+      <mat-error class="error-text" *ngIf="contactForm.get('name')?.hasError('required') && contactForm.get('name')?.touched">
+        Por favor, coloque o nome
+      </mat-error>
+    </div>
+    <div class="form-input-holder">
+      <input class="input" placeholder="Sobrenome" type="text" formControlName="lastName">
+      <mat-error class="error-text" *ngIf="contactForm.get('lastName')?.hasError('required') && contactForm.get('lastName')?.touched">
+        Por favor, coloque o sobrenome
+      </mat-error>
+    </div>
+    <div class="form-input-holder">
+      <input class="input" placeholder="Email" type="text" formControlName="email">
+      <mat-error class="error-text" *ngIf="contactForm.get('email')?.hasError('required') && contactForm.get('email')?.touched">
+        Por favor, coloque o email
+      </mat-error>
+    </div>
+    <div class="form-input-holder">
+      <input class="input" placeholder="Telefone" type="text" formControlName="phone">
+      <mat-error class="error-text" *ngIf="contactForm.get('phone')?.hasError('required') && contactForm.get('phone')?.touched">
+        Por favor, coloque o telefone
+      </mat-error>
+    </div>
+  </form>
+</div>
