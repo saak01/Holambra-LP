@@ -1,5 +1,5 @@
-<div class="d-flex justify-content-center">
-  <form class="form-container" [formGroup]="contactForm">
+
+  <form class="container" [formGroup]="contactForm">
     <div class="form-input-holder">
       <input class="input" placeholder="Nome" type="text" formControlName="name">
       <mat-error class="error-text" *ngIf="contactForm.get('name')?.hasError('required') && contactForm.get('name')?.touched">
@@ -25,4 +25,4 @@
       </mat-error>
     </div>
   </form>
-</div>
+

@@ -1,6 +1,9 @@
 .card-container{
   width: 350px;
   color: var(--secondary-color);
+  @media screen and (max-width:800px) {
+    margin: 10px 0px 10px 0px;
+  }
 }
 
 .card-title{

@@ -1,13 +1,27 @@
-.container{
+.container {
   border-bottom: 4px solid #E7ECF2;
   margin-bottom: 10px;
   opacity: 1;
 }
 
+.container-button-holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  @media screen and (max-width:800px) {
+    align-items: center;
+  }
+}
+
 .button-award {
   width: 394px;
   height: 64px;
+  border: none;
   background-color: var(--primary-color);
   color: #ffffff;
   margin: 80px 32px 0px 32px;
+  @media screen and (max-width:800px) {
+    margin: 32px 32px 0px 32px;
+    min-width: 375px;
+  }
 }

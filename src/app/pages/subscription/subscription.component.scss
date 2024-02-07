@@ -1,6 +1,22 @@
-.container{
-    width: 630px;
-    @media screen and (max-width:800px) {
-      width: 100%;
-    }
+.container {
+  width: 630px;
+  @media screen and (max-width:800px) {
+    width: 100%;
+  }
+}
+
+.subscription-holder-button{
+  @media screen and (max-width:800px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.subscription-button {
+  width: 280px;
+  height: 56px;
+  border: 0px;
+  margin-left: 15px;
+  color: #ffffff;
+  background-color: var(--secondary-color);
 }

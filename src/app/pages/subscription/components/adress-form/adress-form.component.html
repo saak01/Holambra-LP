@@ -1,1 +1,43 @@
-<p>adress-form works!</p>
+<form class="container" [formGroup]="addressForm">
+  <div class="form-input-holder">
+    <input class="input" placeholder="CEP" type="text" (ngModelChange)="cepSearch()" formControlName="cep">
+    <mat-error class="error-text" *ngIf="addressForm.get('cep')?.hasError('required') && addressForm.get('cep')?.touched">
+      Por favor, coloque o CEP
+    </mat-error>
+  </div>
+
+  <div class="form-input-holder">
+    <input class="input" placeholder="Endereço" type="text" formControlName="address">
+    <mat-error class="error-text" *ngIf="addressForm.get('address')?.hasError('required') && addressForm.get('address')?.touched">
+      Por favor, coloque o endereço
+    </mat-error>
+  </div>
+
+  <div class="form-input-holder">
+    <input class="input" placeholder="Bairro" type="text" formControlName="neighborhood">
+    <mat-error class="error-text" *ngIf="addressForm.get('neighborhood')?.hasError('required') && addressForm.get('neighborhood')?.touched">
+      Por favor, coloque o bairro
+    </mat-error>
+  </div>
+
+  <div class="form-input-holder">
+    <input class="input" placeholder="Complemento" type="text" formControlName="complement">
+    <mat-error class="error-text" *ngIf="addressForm.get('complement')?.hasError('required') && addressForm.get('complement')?.touched">
+      Por favor, coloque o complemento
+    </mat-error>
+  </div>
+
+  <div class="form-input-holder">
+    <input class="input" placeholder="Cidade" type="text" formControlName="city">
+    <mat-error class="error-text" *ngIf="addressForm.get('city')?.hasError('required') && addressForm.get('city')?.touched">
+      Por favor, coloque a cidade
+    </mat-error>
+  </div>
+
+  <div class="form-input-holder">
+    <input class="input" placeholder="Estado" type="text" formControlName="state">
+    <mat-error class="error-text" *ngIf="addressForm.get('state')?.hasError('required') && addressForm.get('state')?.touched">
+      Por favor, coloque o estado
+    </mat-error>
+  </div>
+</form>

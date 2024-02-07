@@ -14,6 +14,4 @@ export class ContactFormComponent  {
     email: new FormControl('', [Validators.required]),
     phone: new FormControl('', [Validators.required]),
   });
-
-
 }

@@ -20,6 +20,7 @@ import { ContactFormComponent } from './pages/subscription/components/contact-fo
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdressFormComponent } from './pages/subscription/components/adress-form/adress-form.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,7 @@ import { AdressFormComponent } from './pages/subscription/components/adress-form
     CardAwardComponent,
     SubscriptionComponent,
     ContactFormComponent,
-    AdressFormComponent
+    AdressFormComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +46,8 @@ import { AdressFormComponent } from './pages/subscription/components/adress-form
     MatIconModule,
     MatInputModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
