@@ -8,7 +8,7 @@ A Holambra Landing Page é um projeto desenvolvido em Angular como parte de unde
 
 
 <img align="center" alt="Pokedex App" height="500" width="1280" src="https://i.imgur.com/F5WRsuN.png">
-<img align="center" alt="Pokedex App" height="720" width="360" src="https://i.imgur.com/qcZGVjP.png">
+<img align="center" alt="Pokedex App" height="690" width="360" src="https://i.imgur.com/qcZGVjP.png">
 
 ## Como Executar o Projeto
 
