@@ -21,7 +21,7 @@ npm install -g @angular/cli
 
 ### Clone o Repositório
 ```bash
-git clone https://github.com/saak01/Easy-Bank-LP
+git clone git@github.com:saak01/Holambra-LP.git
 ```
 
 ### Atualize as Dependências
@@ -30,6 +30,7 @@ No diretório raiz do projeto, execute o seguinte comando para obter todas as de
 ```bash
 npm install
 ```
+	
 
 ### Execute o Projeto
 Com as dependências atualizadas, você pode executar o aplicativo usando o seguinte comando:
