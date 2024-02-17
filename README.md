@@ -1,27 +1,47 @@
-# Holambra
+# Holambra LP
+## Introdução
+A Holambra Landing Page é um projeto desenvolvido em Angular como parte de undesafio Front End. O objetivo é criar uma landing page com base no design fornecido, dessa forma familiarizando com processos reais de trabalho de um desenvolvedor front-end.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
+[Acesse o design](https://xd.adobe.com/view/1cf204a5-a446-4ac5-8e6d-690925097289-49a1/specs/)
 
-## Development server
+[Acesse a Landing Page](https://holambra-a22c0.web.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+<img align="center" alt="Pokedex App" height="500" width="1280" src="https://i.imgur.com/F5WRsuN.png">
+<img align="center" alt="Pokedex App" height="720" width="360" src="https://i.imgur.com/qcZGVjP.png">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Como Executar o Projeto
 
-## Build
+### Pré-requisitos
+Certifique-se de ter o Angular CLI instalado em sua máquina. Caso ainda não tenha, você pode instalá-lo globalmente usando o seguinte comando:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+npm install -g @angular/cli
+```
 
-## Running unit tests
+### Clone o Repositório
+```bash
+git clone https://github.com/saak01/Easy-Bank-LP
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Atualize as Dependências
+No diretório raiz do projeto, execute o seguinte comando para obter todas as dependências necessárias:
 
-## Running end-to-end tests
+```bash
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Execute o Projeto
+Com as dependências atualizadas, você pode executar o aplicativo usando o seguinte comando:
 
-## Further help
+```bash
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+O aplicativo será compilado e estará disponível em http://localhost:4200/.
+
+## Recursos Adicionais
+
+- Se desejar aprender mais sobre o desenvolvimento de aplicativos Angular, recomendamos a [documentação oficial do Angular](https://angular.io/tutorial) e o [guia de início rápido do Angular](https://angular.io/guide/quickstart).
+  
+- Para obter ajuda adicional sobre desenvolvimento Angular, você pode visitar a [documentação online](https://angular.io/docs), que oferece tutoriais, amostras e uma referência completa da API.
